@@ -3,7 +3,7 @@ from creatoror import create_dir
 from parserer_ii import download_images
 from converterer import convert_pdf
 
-bot = telebot.TeleBot('7016080127:AAFsGFX6bj2jqTasZmXrVopxnrXAbWl2PRI')
+bot = telebot.TeleBot(' ')
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
